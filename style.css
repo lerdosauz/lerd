@@ -1,0 +1,15 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    color: rgb(0, 162, 255);
+}
+.p1{
+    color: black;
+}
+.png1 {
+    width: 800px;
+    border: 1px solid #000;
+}
