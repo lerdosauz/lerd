@@ -24,12 +24,17 @@ aside {background-color: darksalmon;}
 <meta name="description" content="下载">
 </head>
 <body>
+        
+       
+        
+        
+      
     <h2 style="font-size: 3em; text-align: center;">欢迎登入lerdos/MC站</h2>
 <p>&nbsp;</p>
  <table width="800" border="1" align="center">
   <tbody>
     <tr>
-      <th align="center" valign="middle" bgcolor="#5066A2" scope="col"><img src="images/DATU.jpg" width="400" height="210" alt=""/></th>
+      <th align="center" valign="middle" bgcolor="#5066A2" scope="col"><img src="images/DATU.jpg" width="400" height="210" alt=""/><span style="text-align: center"></span></th>
     </tr>
   </tbody>
 </table>
@@ -51,22 +56,36 @@ aside {background-color: darksalmon;}
  </table>
 
 
-      <tbody>
-        <tr>
-          <td width="100" align="center" valign="middle">&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-    
-<header></header>
-<section>
-  <article><a href="p1">&nbsp;</a></article>
-         <aside>&nbsp;</aside>
-</section>
+      &nbsp;
+        
+        
+          &nbsp;
+        
+        
+          &nbsp; learn even rest data OS提示您，现在是北京时间：
+<tbody>
+<script>
+function showTime(){
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+    var t = setTimeout(showTime, 500);
+}
+ 
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
+}
+</script>
+
+<body onload="showTime()">
+<div id="txt"></div>
+</body>
+
 <p>&nbsp;</p>
 
 <h2>联系邮箱：2814148175@qq.com</h2>
